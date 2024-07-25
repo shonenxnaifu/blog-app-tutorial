@@ -1,5 +1,6 @@
-import Image from "next/image"
-import React from "react"
+import Image from "next/image";
+import React from "react";
+import Link from "next/link"; 
 
 type Props = {}
 
@@ -18,3 +19,8 @@ const HeroSection = (props: Props) => {
 }
 
 export default HeroSection
+
+/**
+ * key: wRdf7Fa0Im2A0kS5ZEoq5tAuUHwrXSMgOEA4jRnu8KPlSlXozOzaxCcgNws5kYZc
+ * publication ID: pub_57ae5035-d804-4c0a-a5ec-dcbc0dd7508a
+ */
