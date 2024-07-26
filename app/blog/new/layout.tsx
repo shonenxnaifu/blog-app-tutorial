@@ -5,10 +5,7 @@ import { Session } from "next-auth";
 export default function Layout({
   children,
   session,
-} : {
-  children: React.ReactNode;
-  session: Session | null;
-}) {
+} : any) {
   return (
     <SessionProvider session={session}>
       {children}

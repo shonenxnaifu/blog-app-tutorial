@@ -23,7 +23,8 @@ const NewBlogForm = (props: Props) => {
 
   const handleSubmit = async (e: React.FormEvent<HTMLFormElement>) => {
     e.preventDefault();
-    const userId = session?.user?.id;
+    const user = session?.user as any;
+    const userId = user?.id;
 
     if (!userId) return;
     try {

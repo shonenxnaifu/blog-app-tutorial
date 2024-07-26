@@ -6,8 +6,8 @@ import CalloutSection from "./home/CalloutSection";
 export default function Home() {
   return (
     <>
+      <HeroSection />
       <div className="container">
-        <HeroSection />
         <Posts />
       </div>
       <CalloutSection />
